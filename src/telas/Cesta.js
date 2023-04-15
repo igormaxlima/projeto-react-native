@@ -17,7 +17,7 @@ export default function Cesta() {
             <Text style={estilos.nome}>Cesta de Verduras</Text>
             <View style={estilos.fazenda}>
                 <Image source={logo} style={estilos.imagemFazenda}/>
-                <Text style={estilos.nomeFazenda}>Fazenda do Mags</Text>
+                <Text style={estilos.nomeFazenda}>Fazenda do Mangs</Text>
             </View>
             <Text style={estilos.descricao}>
                 Uma cesta com produtos
