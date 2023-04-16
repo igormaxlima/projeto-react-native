@@ -18,7 +18,6 @@ export default function Detalhe() {
                 da fazenda direto para sua cozinha
             </Texto>
             <Texto style={estilos.preco}>R$ 40,00</Texto>
-            <Texto> Testando GGit</Texto>
     </>
 }
 
