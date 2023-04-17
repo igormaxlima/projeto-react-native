@@ -4,10 +4,10 @@
     "slug": "primeiro-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

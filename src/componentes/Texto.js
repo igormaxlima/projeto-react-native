@@ -17,7 +17,6 @@ const estilos = StyleSheet.create({
         fontFamily: "MontSerratRegular",
         fontWeight: "normal",
     },
-
     textoNegrito: {
         fontFamily: "MontSerratBold",
         fontWeight: 'normal',
