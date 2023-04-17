@@ -2,14 +2,14 @@ import React from "react";
 import { StyleSheet, SafeAreaView, View } from "react-native";
 
 import Topo from './componentes/Topo';
-import Detalhe from "./componentes/Detalhes";
+import Detalhes from "./componentes/Detalhes";
 
-export default function Cesta() {
+export default function Cesta({topo, detalhes}) {
     return <SafeAreaView>
-        <Topo />
+        <Topo {...topo} />
 
         <View style={estilos.cesta}>
-            <Detalhe />
+            <Detalhes {...detalhes} />
         </View>
         
     </SafeAreaView>

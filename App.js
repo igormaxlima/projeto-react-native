@@ -8,20 +8,23 @@ import {
 
       
 import Cesta from './src/telas/Cesta';
+import mocks from "./src/mocks/cesta";
 
 export default function App() {
   const [fontCarregada] = useFonts({
     "MontSerrratRegular": Montserrat_400Regular,
     "MontSerratBold": Montserrat_700Bold,
   });
+  
   if(!fontCarregada) {
     return < View/>
   }
 
   return (
     <SafeAreaView>
+
       <StatusBar />
-      <Cesta />
+      <Cesta {...mocks} />
     </SafeAreaView>
   );
 }
