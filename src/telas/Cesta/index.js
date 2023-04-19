@@ -12,8 +12,8 @@ export default function Cesta({topo, detalhes, itens}) {
         <View style={estilos.cesta}>
             <Detalhes {...detalhes} />
         </View>
-        <View>
-            <Itens {...itens} />
+       <View >
+        <Itens {...itens} />
         </View>
     </SafeAreaView>
 }

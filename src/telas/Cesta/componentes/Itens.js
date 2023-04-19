@@ -3,6 +3,7 @@ import { View, Image, StyleSheet } from "react-native";
 
 import Texto from "../../../componentes/Texto";
 
+
 export default function Itens({ titulo, lista }) {
 
     return <>
