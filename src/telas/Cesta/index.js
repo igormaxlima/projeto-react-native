@@ -15,7 +15,7 @@ export default function Cesta({topo, detalhes, itens}) {
           ListHeaderComponent={ () => {
             return <>
               <Topo {...topo} />
-               <View style={estilos.cesta}>
+                    <View style={estilos.cesta}>
                    <Detalhes {...detalhes} />
                    <Texto style={estilos.titulo}> { itens.titulo } </Texto>
                 </View>
